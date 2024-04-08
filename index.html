@@ -179,7 +179,25 @@
 
         <!-- contacto -->
         <section id="contacto" class="container px-4 py-4 text-white">
-
+            <form>
+                <h1 class="text-center">Contacto</h1>
+                <div class="form-group py-2">
+                    <label for="formGroupExampleInput">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="form-group py-2">
+                    <label for="exampleFormControlInput1">Asunto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group py-2">
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="py-2">
+                    <button id="enviar" data-bs-placement="bottom" title="Presiona para enviar tu contacto"
+                        class="btn btn-info text-white" type="submit">Enviar</button>
+                </div>
+            </form>
         </section>
 
     </main>
