@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+    font-family: "Dosis", sans-serif;
+    scroll-behavior: auto !important;
+}
+
+.logo {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.card img{
+    height: 180px;
+    width: 285px;
+}
+
+#marca {
+    text-align: right;
+}
+
